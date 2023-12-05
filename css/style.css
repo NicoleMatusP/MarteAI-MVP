@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://images.unsplash.com/photo-1630694093867-4b947d812bf0?q=80&w=3115&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+   nav img{
+    width: 15%;
+   }
+
+header{
+    margin-left: 80px;
+    margin-top: 150px;
+}
+    header .container-h1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin-bottom: 66px;
+    }
+        header .container-h1 h1{
+            font-size: 52px;
+            font-weight: 700;
+            margin: 0px;
+        }
+
+        header .container-h1 p{
+            font-size: 24px;
+            font-weight: 400;
+            max-width: 427px;
+            margin: 0px;
+        }
+
+        header form{
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            width: 60%;
+        }
+            header form input{
+                border-radius: 4px;
+                border: 1px solid #FFF;
+                padding: 14px 12px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+                header form input[type="email"]{
+                    width: 40%;
+                    background-color: black;
+                    color: white;
+                    border-radius: 4px;
+                    border: 1px solid #FFF;
+                    padding: 14px 12px;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                header form button {
+                    padding: 14px 12px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #000000;
+                    background-color: white;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+
+                header form button:hover{
+                    background-color: #e9e9e9;
+                }
